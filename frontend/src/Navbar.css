@@ -1,0 +1,29 @@
+.Navbar {
+    box-sizing: border-box;
+    height: 90%;
+    width: 15%;
+    margin: 2.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+.Navbar-Navlink {
+    font-size: 1.2rem;
+    padding: 10px;
+    color: black
+}  
+
+.Navbar-Navlink a {
+    text-decoration: none;
+}
+
+.Navbar-Navlink a:visited {
+    color: black
+}
+
+.Navbar-banner {
+    padding: 20px;
+    font-size: 1.5rem
+}

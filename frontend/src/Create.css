@@ -1,0 +1,66 @@
+.Create {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Create h1 {
+    max-width: 60%;
+    border: none;
+    font-size: 40px;
+    text-align: center;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.Create form {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
+
+.Create form button {
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.Create input {
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.Create input:-internal-autofill-selected {
+    background-color: none !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+
+.Create button {
+    
+    transition: all 0.2s;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Create button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}

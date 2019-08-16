@@ -1,0 +1,6 @@
+.Chats {       
+    padding: 10px;    
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
